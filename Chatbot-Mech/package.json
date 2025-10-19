@@ -1,7 +1,16 @@
 {
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
   "dependencies": {
     "@ai-sdk/google": "^2.0.23",
     "@assistant-ui/react-ai-sdk": "^1.1.7",
-    "ai": "^5.0.76"
+    "ai": "^5.0.76",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
   }
 }
